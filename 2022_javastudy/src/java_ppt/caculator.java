@@ -12,4 +12,6 @@ public class caculator {
 	{
 		return res=x-y;
 	}
+	
+	
 }
