@@ -11,6 +11,7 @@ public class ExRun {
 		s1.print();
 		
 		String s=s1.gender;
+		
 		Membership m1= new Membership("홍길동","충남아산시","남","010-9696-8686","프로그래머","영화감상");
 		m1.print();
 		
