@@ -5,14 +5,14 @@ public class Q6_2_2 {
 	public static void main(String[] args) {	
 		// TODO Auto-generated method stub
 		int tf;
-		int res;
+
 		int user=23;
 		int count=0;
 		tf=truefalse(user);
 		
 		if(tf==1)		//소수일경우
 		{
-			for(int i=1;i<=100;i++)
+	 		for(int i=1;i<=100;i++)
 			{
 				count=0;
 				for(int j=1;j<=i;j++)
