@@ -21,4 +21,4 @@ public class Cat_i implements IMyinterface{
 // 개발코드-> ExRun 
 // 구현객체(안의 객체)-> Cat_i,Cow_i 임
 
-//구현 객체를 생성하는 클래스=구현클래스
+//구현 객체를 생성하는 클래스=구현클래스	
