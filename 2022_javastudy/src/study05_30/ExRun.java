@@ -66,7 +66,7 @@ public class ExRun {
 		//static이 가지고 있는 의미를 알고있어야함
 		//정적메소드 내에서는 클래스의 인스턴스 내부에 접근이 불가능
 		
-		
+		//시험주의
 //		//public class ExRun{ int a=10;
 //		public static void ~~(){
 //			System.out.println(a);
