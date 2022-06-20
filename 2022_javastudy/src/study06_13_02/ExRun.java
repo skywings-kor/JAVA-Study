@@ -13,7 +13,7 @@ public class ExRun {
 		//		File file=new File(fpath+fname);
 		//		FileReader fr=new FileReader(file);
 		
-		try 
+		try
 		{
 			file=new File(fpath+fname);
 			fr=new FileReader(file);

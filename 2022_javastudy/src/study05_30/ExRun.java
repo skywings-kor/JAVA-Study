@@ -28,9 +28,9 @@ public class ExRun {
 //		my.print();
 //		
 //		
-////		이건 너무 노가다가 심하니 저위에 import 전체 해당 페키지 참조를 하여 가볍게 한다
-////		study05_30_yourpackage.sub.Yourinfo your =new study05_30_yourpackage.sub.Yourinfo();
-////		your.print();
+//		이건 너무 노가다가 심하니 저위에 import 전체 해당 페키지 참조를 하여 가볍게 한다
+//		study05_30_yourpackage.sub.Yourinfo your =new study05_30_yourpackage.sub.Yourinfo();
+//		your.print();
 //		
 //		Yourinfo your2=new Yourinfo();		
 //		Your2nd your3=new Your2nd();

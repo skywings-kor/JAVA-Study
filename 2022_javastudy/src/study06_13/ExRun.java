@@ -5,7 +5,7 @@ public class ExRun {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str1="aaa";
+		String str1=null;
 
 		//이상태로 출력할경우-오류발생
 //		String str2;
@@ -37,9 +37,9 @@ public class ExRun {
 		
 		//try로 익셉션이 일으킬 수 있는 것을 묶어서 감시하는 역할을 하게 됨
 		try {
-			System.out.println(myInt[5]);
-			System.out.println("트라이 아래 구문!");
-			
+//			System.out.println(myInt[6]);
+//			System.out.println("트라이 아래 구문!");
+			System.out.println(str1.toString());
 			//오류 부분을 한정 시켜서 실행할 수 있음! 저렇게 Array로하면 배열 관련 오류로만 캐치!
 			//ArrayIndexOutOfBoundsException
 		}
