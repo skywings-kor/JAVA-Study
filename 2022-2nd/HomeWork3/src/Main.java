@@ -13,14 +13,6 @@ import javax.swing.event.*;
 
 
 public class Main extends JFrame{
-	//서버 통신을 위한 준비
-	String URL="jdbc:mysql://localhost:3306/banksystem?serverTimezone=Asia/Seoul";
-	Connection con=null;
-	String id="root";
-	String password="root";
-	
-	//insertData부분
-	Statement stmt=null;
 	
 	
 	//전체 인덱스에 해당하는 값으로 초기값지정
@@ -63,18 +55,14 @@ public class Main extends JFrame{
 				
 			};
 		
-		
-		//처음에 배열을 각 학과별로 만들려다가 하나만 있어도 되겠다 싶어서 급히 computer만 남기고 
-		//이 배열만 활용하여 만들어서... 변수 이름은 크게 신꼉쓰지 않으실거 같아서....
-		//ㅠㅠㅠ... 다 바꾸기가  한세월 걸려 그냥 진행했습니다.
 		Object [][] Computer= new Object[Student.length][Student[0].length];
+		
 		
 		
 		//공간 패널 선언용 (위에 중간 아래)
 		JPanel basePanel=new JPanel(new BorderLayout());
 		JPanel westPanel=new JPanel();
 		JPanel centerPanel =new JPanel();
-		
 		
 		//West Panel용 컴포넌트들
 		JLabel titleLabel=new JLabel("Select Student Type");
@@ -93,8 +81,8 @@ public class Main extends JFrame{
 		
 		Main()
 		{
+			int test;
 			setTitle("Made By PGM-StudentList");
-			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 					
 			//컨테이너(패널) 배치 및 크기조정
 			westPanel.setPreferredSize(new Dimension(160,basePanel.getHeight()));		//크기를 160으로 고정하고 있게 됨
@@ -949,7 +937,10 @@ public class Main extends JFrame{
 		}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Main run=new Main();
+		int test=0;
+		LoginSys check=new LoginSys();
+		
+		
 		      
 	}
 
